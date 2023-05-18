@@ -1,0 +1,91 @@
+#restaurant_project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Page -->
+    <section id="home">
+      <div class="slideshow">
+        <!-- Slideshow images go here -->
+      </div>
+    </section>
+
+    <!-- Menu Page -->
+    <section id="menu">
+      <h2>Menu</h2>
+      <div class="menu-section">
+        <h3>Starters</h3>
+        <div class="menu-item">
+          <h4>Starter 1</h4>
+          <p>Description of Starter 1.</p>
+          <p>Price: $X.XX</p>
+        </div>
+        <!-- Add more starters here -->
+      </div>
+
+      <div class="menu-section">
+        <h3>Main Courses</h3>
+        <div class="menu-item">
+          <h4>Main Course 1</h4>
+          <p>Description of Main Course 1.</p>
+          <p>Price: $X.XX</p>
+        </div>
+        <!-- Add more main courses here -->
+      </div>
+
+      <div class="menu-section">
+        <h3>Desserts</h3>
+        <div class="menu-item">
+          <h4>Dessert 1</h4>
+          <p>Description of Dessert 1.</p>
+          <p>Price: $X.XX</p>
+        </div>
+        <!-- Add more desserts here -->
+      </div>
+
+      <div class="menu-section">
+        <h3>Drinks</h3>
+        <div class="menu-item">
+          <h4>Drink 1</h4>
+          <p>Description of Drink 1.</p>
+          <p>Price: $X.XX</p>
+        </div>
+        <!-- Add more drinks here -->
+      </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p>Address: 123 Restaurant Street, City, Country</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Email: info@restaurant.com</p>
+      </div>
+      <div class="map">
+        <!-- Embed a map with the restaurant's location here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Restaurant Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
